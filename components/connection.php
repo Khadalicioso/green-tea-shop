@@ -3,10 +3,7 @@
     $user_name = "root";
     $password = "";
     $conn = new PDO($db_name, $user_name, $password);
-    
-    if ($conn) {
-        echo "did not connect to database";
-    }
+
     function unique_id(){
         $chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
         $charLength = strlen($chars);
