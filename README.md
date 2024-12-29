@@ -56,7 +56,7 @@ A modern e-commerce platform specialized in premium green tea products, featurin
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Khadalicioso/green_tea.git
+git clone https://github.com/Khadalicioso/green-tea-shop.git
 ```
 
 2. Import the database:
