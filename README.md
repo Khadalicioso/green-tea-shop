@@ -51,48 +51,6 @@ A modern e-commerce platform specialized in premium green tea products, featurin
 - Web server (Apache/Nginx)
 - Modern web browser
 
-## 🚀 Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/Khadalicioso/green-tea-shop.git
-```
-
-2. Import the database:
-
-```bash
-mysql -u username -p database_name < database/green_tea.sql
-```
-
-3. Configure database connection:
-
-- Navigate to `components/connection.php`
-- Update database credentials
-
-4. Start your local server:
-
-```bash
-php -S localhost:8000
-```
-
-5. Access the application:
-
-- Customer Interface: `http://localhost:8000`
-- Admin Panel: `http://localhost:8000/admin`
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Made with ❤️ and ☕
